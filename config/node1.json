@@ -1,0 +1,26 @@
+{
+  "addr": {
+    "ip": "127.0.0.1",
+    "port": 6000
+  },
+  "role": 1,
+  "block": [
+    {
+      "height": 0, 
+      "version": 1, 
+      "nonce": 1754126, 
+      "diff": 5, 
+      "data": [], 
+      "prevBlockHash": "", 
+      "timeStamp": 1557379080.421407, 
+      "merkleTree": [
+        "9704a05c9afffc927899ad21907866ec72b166fd58250b57bca6a184e462d554", 
+        "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b", 
+        "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35"], 
+      "sign": []}
+  ],
+  "peers": [
+    {"ip":  "127.0.0.1", "port": 6002},
+    {"ip":  "127.0.0.1", "port": 6004}
+  ]
+}
