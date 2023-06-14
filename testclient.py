@@ -76,3 +76,4 @@ if __name__ == "__main__":
                 li.remove(int(c.subject))
             except:
                 pass
+    logging.info('finish')
