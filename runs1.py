@@ -6,3 +6,7 @@ with open("config/node1.json","r") as f:
 
 node = Node("node1",config)
 node.run()
+    # while True:
+    #     send_data()
+    #     time.sleep(5)
+    
