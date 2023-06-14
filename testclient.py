@@ -60,7 +60,9 @@ if __name__ == "__main__":
     c.create_certificate(priv_key)
     print("-----send: {}".format(c.get_js()))
     broadcast(peers, dumpjson("add", c.get_js()))    
-
+    
+    logging.info('continue')
+    
     time.sleep(10) 
     print("-----start revoke certificate")
     ret = sender(peers[0],dumpjson("search", {"subject": str(li[0])}))     
