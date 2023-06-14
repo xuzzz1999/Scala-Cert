@@ -68,7 +68,7 @@ if __name__ == "__main__":
             c = Certificate()
             print(ce)
             c.load_dict(ce)
-            print("-----after revoke")
+            # print("-----after revoke")
             print("-----Certificate {} is found".format(c.subject))
             print(c.get_js())
             print(c.opercheck())
