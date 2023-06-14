@@ -17,7 +17,7 @@ import base64
 p = 0x10000000000000000000000000000000000000000000000000000000000000129
 g = 5
 # print(gmpy2.powmod(g,p-981648641,p))
-
+   
 
 def gen_keys(priv_file_name, pub_file_name):
     __doc__ = ''' Generate a new pair of keys and save them into files'''
